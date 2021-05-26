@@ -4,7 +4,7 @@ using NUnit.Framework;
 namespace CADIceTray.UnitTests
 {
     [TestFixture]
-    public class PhoneCaseParametersTest
+    public class IceTrayParametersTest
     {
         [TestCase(ParameterName.CellHeight, 0,
             TestName = "Негативный тест проверки CellHeight в индексаторе")]
