@@ -174,23 +174,6 @@ namespace KompasInteractor
         }
 
         /// <summary>
-        /// Нарисовать окружность.
-        /// </summary>
-        /// <param name="xc">Координата x центра окружности.</param>
-        /// <param name="yc">Координата у центра окружности.</param>
-        /// <param name="radius">Радиус окружности.</param>
-        /// <param name="currentPlane">Плоскость на которой рисуется
-        /// окружность.</param>
-        private void DrawCircle(double xc, double yc, double radius,
-            ksEntity currentPlane)
-        {
-            CreateSketch(currentPlane);
-            _sketchEdit = (ksDocument2D)_sketchDefinition.BeginEdit();
-            _sketchEdit.ksCircle(xc, yc, radius, 1);
-            _sketchDefinition.EndEdit();
-        }
-
-        /// <summary>
         ///  Указатель на экземпляр компаса.
         /// </summary>
         private readonly KompasObject _kompas;
