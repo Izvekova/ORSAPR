@@ -2,6 +2,7 @@
 
 namespace CADIceTray
 {
+    //TODO: XML комментарии?
     public class Parameter
     {
         /// <summary>
