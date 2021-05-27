@@ -2,9 +2,6 @@
 
 namespace CADIceTray
 {
-    /// <summary>
-    /// Параметры.
-    /// </summary>
     public class Parameter
     {
         /// <summary>
